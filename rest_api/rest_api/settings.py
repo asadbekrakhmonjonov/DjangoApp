@@ -133,7 +133,7 @@ WSGI_APPLICATION = 'rest_api.wsgi.application'
 
 import dj_database_url
 DATABASES = {
-    'default': dj_database_url.parse('postgres://django_app_database_user:ysr4hz45lCi5GBBsKOGSkTdVzpF1MqSG@dpg-co9434a0si5c73961mg0-a.oregon-postgres.render.com/django_app_database')
+    'default': dj_database_url.parse('postgres://djano_app_user:HLjvZgvaxrHbbcdmXu0dFV0zxkCIYzD6@dpg-co94facf7o1s7392bqj0-a.oregon-postgres.render.com/djano_app')
 }
 
 
