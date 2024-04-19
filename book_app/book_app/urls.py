@@ -1,5 +1,5 @@
 """
-URL configuration for rest_api project.
+URL configuration for book_app project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -19,9 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('rest_api_files.urls')),
+    path('api/', include('book_app_files.urls')),
     path('', include('frontend.urls')),
-
-
 
 ]
